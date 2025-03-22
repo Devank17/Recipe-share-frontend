@@ -36,7 +36,7 @@ const FeaturedRecipes = () => {
       setData3(recipes[randomNum()]);
       setData4(recipes[randomNum()]);
     }
-  }, [recipes]);
+  }, []);
 
   return (
     <div className="mainFeatured w-full bg-[hsl(var(--muted))]/30">

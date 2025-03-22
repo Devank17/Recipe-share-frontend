@@ -87,7 +87,7 @@ const RecipeSearchBar = () => {
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             placeholder="Search for recipes..."
-            className="w-full p-4 pr-12 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent "
+            className="w-full px-2 p-4 pr-12 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent "
           />
           <button
             type="submit"
@@ -113,7 +113,7 @@ const RecipeSearchBar = () => {
 
       {/* Search results dropdown */}
       {showResults && (
-        <div className="absolute w-full mt-2 bg-[hsl(var(--background))] text-white rounded-lg shadow-lg z-10 max-h-96 overflow-y-auto">
+        <div className="absolute w-full px-2 mt-2 bg-[hsl(var(--background))] text-white rounded-lg shadow-lg z-10 max-h-96 overflow-y-auto">
           {isLoading ? (
             <div className="p-4 text-center text-gray-500">
               <CircularProgress />
