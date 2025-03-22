@@ -16,7 +16,6 @@ import { Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import { auth } from "../firebase/firebase";
 import Swal from "sweetalert2";
-import "./Navbar.css";
 
 function Navbar() {
   const { currentUser, logout } = useAuth();
