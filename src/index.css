@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --background: 24 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+}
+
+body {
+  background-color: #09090b;
+  color: #fff;
+}
+
+.orange {
+  background-color: oklch(0.705 0.213 47.604);
+}
+
+/* Hide number input arrows */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
