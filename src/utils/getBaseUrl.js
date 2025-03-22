@@ -1,5 +1,5 @@
 const getBaseUrl = () => {
-  return "http://localhost:8080";
+  return "https://recipe-share-backend.vercel.app";
 };
 
 export default getBaseUrl;
