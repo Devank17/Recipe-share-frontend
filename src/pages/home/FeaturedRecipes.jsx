@@ -31,12 +31,12 @@ const FeaturedRecipes = () => {
   // Update random recipe states when recipes are loaded
   useEffect(() => {
     if (recipes.length > 0) {
-      setData1(recipes[randomNum()]);
-      setData2(recipes[randomNum()]);
-      setData3(recipes[randomNum()]);
-      setData4(recipes[randomNum()]);
+      setData1(recipes[21]);
+      setData2(recipes[5]);
+      setData3(recipes[30]);
+      setData4(recipes[12]);
     }
-  }, []);
+  }, [recipes]);
 
   return (
     <div className="mainFeatured w-full bg-[hsl(var(--muted))]/30">
